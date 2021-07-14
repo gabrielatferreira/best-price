@@ -1,0 +1,345 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* CABEÇALHO */
+
+header {
+    background-color: #000;
+}
+
+/* PRINCIPAL - PRIMEIRA DIV - LOGO */
+
+#container-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: #EDE6AB;
+}
+
+.logo {
+    width: 280px;
+    margin-top: 90px;
+}
+
+.slogan {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 75px;
+}
+
+.carrinho {
+    width: 100px;
+    margin-bottom: 80px;
+}
+
+.carrinho:hover {
+    cursor: pointer;
+    transition: all 0.4s;
+    width: 110px;
+}
+
+/* PRINCIPAL - SEGUNDA DIV - NAVEGAÇÃO */
+
+#container-navegacao {
+    width: 100%;
+    height: 100px;
+    
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    margin-top: 40px;
+    padding-left: 45px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #EDE6AB;
+}
+
+.nav-email {
+    padding-right: 35px;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    transition: all 0.4s;
+    font-size: 25px;
+    color: #FFDF2B;
+}
+
+/* PRINCIPAL - TERCEIRA DIV - FRASE */
+
+#container-frase {
+    background-color: #EDE6AB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.frase {
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+/* PRINCIPAL - QUARTA DIV - PRODUTOS */
+
+
+/* CELULARES */
+
+.celulares {
+    font-size: 30px;
+    font-weight: bold;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    text-align: center;
+    background-color: #FFDF2B;
+    padding: 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 6px 27px 14px rgba(0,0,0,0.44); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 6px 27px 14px rgba(0,0,0,0.44);
+}
+
+#produtos-celulares {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    vertical-align: baseline;
+    align-items: center;
+    height: 500px;
+    background-color: #f1f1f1;
+}
+
+.cel {
+    width: 220px;
+    padding: 100px 0 0 0;
+}
+
+.nokia {
+    width: 230px;
+}
+
+.motorola {
+    width: 150px;
+}
+
+.precos-cel {
+    text-align: center;
+    font-size: 22px;
+    padding: 50px 0;
+}
+
+.line {
+    text-decoration: line-through;
+}
+
+.bold {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.bold:hover {
+    transition: all 0.5s;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 6px 27px 14px rgba(0,0,0,0.44); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 6px 27px 14px rgba(0,0,0,0.44);
+}
+
+/* TELEVISORES */
+
+.televisores {
+    font-size: 30px;
+    font-weight: bold;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    text-align: center;
+    background-color: #FFDF2B;
+    padding: 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 6px 27px 14px rgba(0,0,0,0.44); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 6px 27px 14px rgba(0,0,0,0.44);
+}
+
+#produtos-televisores {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    vertical-align: baseline;
+    align-items: center;
+    height: 500px;
+    background-color: #f1f1f1;
+}
+
+.tv {
+    width: 300px;
+    padding: 100px 0 0 0;
+}
+
+.maisescura {
+    width: 250px;
+}
+
+.escura {
+    width: 330px;
+}
+
+.clara {
+    width: 310px;
+}
+
+.precos-tv {
+    text-align: center;
+    font-size: 22px;
+    padding: 50px 0;
+}
+
+/* PRINCIPAL - QUINTA DIV - EMAIL FRASE */
+
+#container-emaildigite {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 6px 27px 14px rgba(0,0,0,0.44); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 6px 27px 14px rgba(0,0,0,0.44);
+}
+
+#container-email {
+    background-color: #000;
+}
+
+.email {
+    color: #EDE6AB;
+    font-size: 25px;
+    text-align: center;
+    padding: 80px 0 30px 0;
+}
+
+/* PRINCIPAL - SEXTA DIV - EMAIL DIGITE */
+
+#container-digite {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.digite-email {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.botao-enviar {
+    width: 100px;
+    height: 35px;
+    border: 1px solid #EDE6AB;
+    background-color: #EDE6AB;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.botao-enviar:hover {
+    cursor: pointer;
+    transition: all 0.5s;
+    background-color: #FFDF2B;
+    border: 1px solid #FFDF2B;
+}
+
+
+/* PRINCIPAL - SÉTIMA DIV - REDES SOCIAIS */
+
+#container-redessociais {
+    background-color: #EDE6AB;
+}
+
+.promocoes, .redes-sociais {
+    text-align: center;
+}
+
+.promocoes {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 100px 0 60px 0 ;
+}
+
+.redes-sociais {
+    font-size: 21px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+/* PRINCIPAL - OITAVA DIV - LOGO REDES SOCIAIS */
+
+#container-redeslogos {
+    background-color: #EDE6AB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook, .instagram, .linkedin {
+    align-items: center;
+}
+
+.facebook {
+    width: 29px;
+    height: 29px;
+    padding-right: 15px;
+}
+
+.instagram {
+    width: 30px;
+    height: 30px;
+    padding-right: 15px;
+}
+
+.linkedin {
+    margin-top: 3px;
+    width: 30px;
+    height: 30px;
+}
+
+.voltar {
+    background-color: #EDE6AB;;
+    font-weight: bold;
+    padding: 60px 20px 20px 0;
+    text-align: right;
+    color: #000;;
+}
+
+.a-voltar {
+    text-decoration: none;   
+}
+
+.voltar:hover {
+    cursor: pointer;
+    transition: all 0.4s;
+    font-size: 17px;
+}
+
+/* RODAPÉ */
+
+footer {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.figura-logo {
+    width: 60px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  
+}
+
+.copyright {
+    color: #EDE6AB;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylecoutdown.css">
+    <link rel="stylesheet" href="responsivo.css" media="screen and (max-width: 940px)">
+    <script type="text/javascript" src="cadastro.js"></script>
+    <title>Best Price</title>
+</head>
+<body>
+    <header>
+        <div id="container-logo">
+            <img class="logo" src="assets/logo.png" alt="Logo Best Price">
+            <h1 class="slogan">Os melhores preços nos melhores produtos!</h1>
+            <img class="carrinho" src="assets/carrinho.png" alt="Carrinho de compras">
+        </div>
+        <div id="container-navegacao">
+            <nav class="navegacao">
+                <a class="nav-item" href="#produtos-celulares">Celulares</a>
+                <a class="nav-item" href="#produtos-televisores">Televisores</a>
+                <a class="nav-item nav-email" href="#container-email">Cadastrar email</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="display-timer">
+            <p class="texto-timer">Aproveite nossas promoções por tempo limitado!</p>
+            <ul class="timer-regressivo">
+                <li class="timer-data">
+                    <span data-time></span>
+                    <div>dia(s)</div>
+                </li>
+                <li class="timer-data">
+                    <span data-time></span>
+                    <div>hora(s)</div>
+                </li>
+                <li class="timer-data">
+                    <span data-time></span>
+                    <div>min(s)</div>
+                </li>
+                <li class="timer-data">
+                    <span data-time></span>
+                    <div>seg(s)</div>
+                </li>
+            </ul>
+            <script type="module" src="./script.js"></script>
+        </div>
+        <div id="container-frase">
+            <h2 class="frase">Adquira produtos com tecnologia de ponta</h2>
+        </div>
+
+        
+        <h3 class="celulares">Celulares</h3>
+        <div id="produtos-celulares">
+            <img class="cel nokia" src="assets/celantigo.png" alt="Celular antigo Nokia">
+            <p class="precos-cel">Celular Avô do iPhone de <br><span class="line">R$ 599,00</span> por <span class="bold">R$ 585,00</span></p>
+        
+            <img class="cel siemens" src="assets/celantigo2.png" alt="Celular antigo Siemens">
+            <p class="precos-cel">Celular Época do VHS de <br> <span class="line">R$ 782,00</span> por <span class="bold">R$ 780,00</span></p>
+        
+            <img class="cel motorola" src="assets/celantigo3.png" alt="Celular antigo Motorola">
+            <p class="precos-cel">Celular Idoso do Flip de <br> <span class="line">R$ 695,00</span> por <span class="bold">R$ 685,00</span></p> 
+        </div> 
+
+        <h3 class="televisores">Televisores</h3>
+        <div id="produtos-televisores">
+            <img class="tv maisescura" src="assets/tvantiga.png" alt="Televisão antiga">
+            <p class="precos-tv">Televisão Tomara que Ligue de <br><span class="line">R$ 1.493,00</span> por <span class="bold">R$ 1.490,00</span></p>
+
+            <img class="tv escura" src="assets/tvantiga2.png" alt="Televisão antiga">
+            <p class="precos-tv">Televisão Velha Guarda de <br> <span class="line">R$ 1.582,00</span> por <span class="bold">R$ 1.579,00</span></p>
+
+            <img class="tv clara" src="assets/tvantiga3.png" alt="Televisão antiga">
+            <p class="precos-tv">Televisão Funciona Por favor de <br> <span class="line">R$ 1.299,00</span> por <span class="bold">R$ 1.199,00</span></p>   
+        </div>
+        
+
+        <div id="container-emaildigite">
+            <div id="container-email">
+                <h4 class="email">Cadastre seu email para receber mais informações de produtos e promoções</h4>
+            </div>
+
+            <div id="container-digite">
+                <input class="digite-email" type="email" placeholder="Digite seu email aqui...">
+                <button class="botao-enviar" type="submit" value="text" onclick="enviar();">Enviar</button>
+            </div>
+        </div>
+
+        <div id="container-redessociais">
+            <h5 class="promocoes">Sempre com as melhores promoções para você!</h5>
+            <p class="redes-sociais">Siga nossas redes sociais:</p>
+        </div>
+
+        <div id="container-redeslogos">
+            <img class="facebook" src="assets/facebook.png" alt="Logo do Facebook">
+            <img class="instagram" src="assets/instagram.png" alt="Logo do Instagram">
+            <a href="https://www.linkedin.com/in/gabriela-trindade-ferreira-815518182/" target="_blank"><img class="linkedin" src="assets/linkedin.png" alt="Logo do Linkedin"></a>
+        </div>
+
+        <a class="a-voltar" href="#"><p class="voltar">⇧Voltar ao topo</p></a>
+    </main>
+    <footer>
+        <img class="figura-logo" src="/assets/logoimg.png" alt="Logo Best Price">
+        <p class="copyright">©️ Copyright Best Price 2021</p>
+    </footer> 
+</body>
+</html>

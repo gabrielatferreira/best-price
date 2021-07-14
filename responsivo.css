@@ -1,0 +1,63 @@
+@media (max-width: 940px) {
+    #container-logo {
+        flex-direction: column;
+    }
+
+    .logo {
+        transition: all 0.4s;
+        width: 240px;
+    }
+
+    .slogan {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .carrinho {
+        margin-bottom: 40px;
+    }
+
+    .carrinho:hover {
+        width: 100px;
+    }
+
+    .navegacao {
+        flex-direction: column;
+    }
+    
+    .nav-item {
+        margin-top: 0;
+        padding-left: 10px;
+        padding-bottom: 8px;
+        text-align: center;
+    }
+
+    .nav-email {
+        padding-right: 0;
+    }
+
+    .nav-item:hover {
+        font-size: 24px;
+    }
+
+    .frase {
+        text-align: center;
+        margin-left: 0;
+    }
+    
+    #produtos-celulares {
+        height: 1500px;
+    }
+
+    #produtos-televisores {
+        height: 1500px;
+    }
+
+    #container-digite {
+        flex-direction: column;
+    }
+
+    .botao-enviar {
+        margin-top: 10px;
+    }
+}
