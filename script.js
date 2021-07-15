@@ -1,6 +1,7 @@
 import Countdown from "./countdown.js";
 
-const tempoParaOWWB = new Countdown("16 July 2021 20:00:00 GMT-0300");
+const data = dataEncerramentoPromocao();
+const tempoParaOWWB = new Countdown(data + " 2021 00:00:00 GMT-0300");
 const tempos = document.querySelectorAll("[data-time]");
 
 function mostrarTempo() {
@@ -8,5 +9,12 @@ function mostrarTempo() {
     tempo.innerHTML = tempoParaOWWB.total[index];
   });
 }
+
+function dataEncerramentoPromocao() {
+  var date = new Date();
+  var meses = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  return (date.getDate()+2)  + " " + meses[date.getMonth()]
+}
+
 mostrarTempo();
 setInterval(mostrarTempo, 1000);
