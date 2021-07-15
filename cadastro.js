@@ -3,10 +3,17 @@ function enviar() {
 
     if (email == null || email == "") return
 
-    if (localStorage.getItem(email)) {
+    if (!email.includes("@")) {
+        alert("Este email não é válido.");
+    } else if (localStorage.getItem(email)) {
         alert("Este email já foi cadastrado.");
     } else {
         localStorage.setItem(email, "gravado");
         alert("Email cadastrado com sucesso!")
     }
+    limparCampo();
+}
+
+function limparCampo() {
+    document.querySelector('.digite-email').value = "";
 }
